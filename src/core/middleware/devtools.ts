@@ -26,7 +26,7 @@ export const devtools: Middleware<DevtoolsOptions> = <T>(
     }
 
     // Set defaults for undefined options
-    const currentName = name || "zustandStore";
+    const currentName = name || "chubeiStore";
     const currentActionType = anonymousActionType || "STATE_UPDATE";
     const currentSerialize = serialize !== undefined ? serialize : true;
     const currentEnabled = enabled !== undefined ? enabled : true;
